@@ -1,14 +1,8 @@
 package samples;
 
 public class Location {
-	private String Name;
+	
 	private int locationId, description;
-	public String getName() {
-		return Name;
-	}
-	public void setName(String name) {
-		Name = name;
-	}
 	public int getLocationId() {
 		return locationId;
 	}
